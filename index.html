@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandu Kumar Koribilli | AI/ML & Full Stack Developer</title>
+    <meta name="description"
+        content="Portfolio of Nandu Kumar Koribilli — AI/ML Engineer & Full Stack Developer. Explore projects, skills, and experience in machine learning, Python, and web development.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+
+<body>
+    <!-- Sequential Scroll Canvas -->
+    <canvas id="sequenceCanvas"></canvas>
+
+    <!-- Particle Background -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="nav">
+        <div class="nav-logo">
+            <span class="logo-text">NK</span>
+            <span class="logo-dot"></span>
+        </div>
+        <div class="nav-links">
+            <a href="#hero" class="nav-link active" data-section="hero">Home</a>
+            <a href="#about" class="nav-link" data-section="about">About</a>
+            <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+            <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+            <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+            <a href="#certifications" class="nav-link" data-section="certifications">Certs</a>
+            <a href="#leadership" class="nav-link" data-section="leadership">Leadership</a>
+            <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#hero" class="mobile-link">Home</a>
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#skills" class="mobile-link">Skills</a>
+        <a href="#experience" class="mobile-link">Experience</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#certifications" class="mobile-link">Certifications</a>
+        <a href="#leadership" class="mobile-link">Leadership</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="hero" class="section hero-section">
+        <div id="hero3d" class="hero-3d-container"></div>
+        <div class="hero-content">
+            <h1 class="hero-title reveal-up">
+                <span class="hero-greeting">Hi, I'm</span>
+                <span class="hero-name">Nandu Kumar Koribilli</span>
+            </h1>
+            <div class="hero-roles reveal-up">
+                <span class="role-tag" id="roleTag">AI/ML Engineer</span>
+                <span class="role-divider">×</span>
+                <span class="role-tag">Full Stack Developer</span>
+            </div>
+            <p class="hero-description reveal-up">
+                Crafting intelligent systems and beautiful interfaces at the intersection of
+                <span class="text-gradient">artificial intelligence</span> and
+                <span class="text-gradient-alt">modern web development</span>.
+            </p>
+            <div class="hero-cta reveal-up">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View My Work</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17l9.2-9.2M17 17V7H7" />
+                    </svg>
+                </a>
+                <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+            </div>
+            <div class="hero-stats reveal-up">
+                <div class="stat">
+                    <span class="stat-number" data-count="5">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Hackathons</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="300">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Students Onboarded</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="4">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Projects Built</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="section about-section">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">01</span>
+                <h2 class="section-title">About <span class="text-gradient">Me</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal-up">
+                    <p class="about-lead">
+                        AI/ML-focused Computer Science undergraduate with strong proficiency in Python,
+                        data analysis, and machine learning workflows. Passionate about building end-to-end
+                        ML projects and full-stack web applications.
+                    </p>
+                    <p>
+                        I combine my expertise in <strong>artificial intelligence</strong> with
+                        <strong>full stack development</strong> to create intelligent, user-centric applications.
+                        From training ML models to deploying them via Flask, and from building React frontends
+                        to managing MongoDB backends — I bridge the gap between data science and software engineering.
+                    </p>
+                    <p>
+                        As a <strong>Google Student Ambassador</strong>, I've successfully onboarded 300+ students
+                        into the Google ecosystem. I lead technical workshops for 200+ students as the
+                        <strong>Technical Lead of TECOS</strong>, GVP's technical club.
+                    </p>
+                </div>
+                <div class="about-details reveal-up">
+                    <div class="detail-card glass-card">
+                        <div class="detail-icon">📍</div>
+                        <div class="detail-info">
+                            <span class="detail-label">Location</span>
+                            <span class="detail-value">Visakhapatnam, India</span>
+                        </div>
+                    </div>
+                    <div class="detail-card glass-card">
+                        <div class="detail-icon">🎓</div>
+                        <div class="detail-info">
+                            <span class="detail-label">Education</span>
+                            <span class="detail-value">B.Sc Computer Science (IoT)</span>
+                        </div>
+                    </div>
+                    <div class="detail-card glass-card">
+                        <div class="detail-icon">🏫</div>
+                        <div class="detail-info">
+                            <span class="detail-label">University</span>
+                            <span class="detail-value">Gayatri Vidya Parishad</span>
+                        </div>
+                    </div>
+                    <div class="detail-card glass-card">
+                        <div class="detail-icon">🗣️</div>
+                        <div class="detail-info">
+                            <span class="detail-label">Languages</span>
+                            <span class="detail-value">English, Telugu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section id="skills" class="section skills-section">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">02</span>
+                <h2 class="section-title">Technical <span class="text-gradient">Arsenal</span></h2>
+            </div>
+            <div class="skills-grid">
+                <!-- AI/ML Skills -->
+                <div class="skill-category glass-card reveal-up">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">🧠</div>
+                        <h3>AI & Machine Learning</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item"><span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span class="skill-name">Scikit-learn</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span class="skill-name">TensorFlow</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span class="skill-name">NumPy / Pandas</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span class="skill-name">Data Visualization</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span class="skill-name">Feature Engineering</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Full Stack Skills -->
+                <div class="skill-category glass-card reveal-up">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">⚡</div>
+                        <h3>Full Stack Development</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item"><span class="skill-name">HTML / CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span class="skill-name">ReactJS</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="78"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span class="skill-name">ExpressJS</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="72"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span class="skill-name">Flask</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tools & DevOps -->
+                <div class="skill-category glass-card reveal-up">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">🛠️</div>
+                        <h3>Tools & DevOps</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item"><span class="skill-name">Git / GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span class="skill-name">Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="68"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span class="skill-name">Linux</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span class="skill-name">Jupyter Notebook</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span class="skill-name">Hugging Face</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item"><span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-width="72"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE SECTION ===== -->
+    <section id="experience" class="section experience-section">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">03</span>
+                <h2 class="section-title">Professional <span class="text-gradient">Journey</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal-up">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <span class="timeline-date">2026</span>
+                                <h3 class="timeline-title">AI/ML Intern</h3>
+                                <span class="timeline-company">Data Pro · Visakhapatnam</span>
+                            </div>
+                            <span class="timeline-badge">AI/ML</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Worked on AI and ML workflows to clean, transform, and prepare raw datasets for model
+                                training</li>
+                            <li>Trained ML models and ran performance evaluations for accuracy and reliability</li>
+                            <li>Monitored model execution and performed data validation to optimize predictive outcomes
+                            </li>
+                            <li>Applied algorithmic approaches to internal data projects for real-world problem solving
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-up">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <span class="timeline-date">2025</span>
+                                <h3 class="timeline-title">Python Full Stack Intern</h3>
+                                <span class="timeline-company">Millennium · Visakhapatnam</span>
+                            </div>
+                            <span class="timeline-badge badge-alt">Full Stack</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Built and tested functional digital solutions using Python-based full stack technologies
+                            </li>
+                            <li>Developed and integrated front-end and back-end components for seamless performance</li>
+                            <li>Managed data entry and system integration for large-scale project collaboration</li>
+                            <li>Utilized analytical skills to troubleshoot and resolve bugs during the project lifecycle
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-up">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <span class="timeline-date">2023 – 2024</span>
+                                <h3 class="timeline-title">Data Science Trainee</h3>
+                                <span class="timeline-company">GeeksforGeeks · Remote</span>
+                            </div>
+                            <span class="timeline-badge">Data Science</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Worked on the complete ML lifecycle: data collection, preprocessing, model training, and
+                                evaluation</li>
+                            <li>Analyzed datasets and extracted insights using Python libraries</li>
+                            <li>Gained practical exposure to real-world ML problem-solving</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="section projects-section">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">04</span>
+                <h2 class="section-title">GitHub <span class="text-gradient">Projects</span></h2>
+            </div>
+            <div class="projects-grid" id="projectsGrid">
+                <div class="projects-loading reveal-up" id="projectsLoading">
+                    <div class="loading-spinner"></div>
+                    <span>Loading repos from GitHub...</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS SECTION ===== -->
+    <section id="certifications" class="section certs-section">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">05</span>
+                <h2 class="section-title">Certifications & <span class="text-gradient">Credentials</span></h2>
+            </div>
+            <div class="certs-grid">
+                <div class="cert-card glass-card reveal-up">
+                    <div class="cert-icon">🤖</div>
+                    <h4>5-Day AI Agents Intensive Course</h4>
+                    <span class="cert-issuer">Google</span>
+                </div>
+                <div class="cert-card glass-card reveal-up">
+                    <div class="cert-icon">🧠</div>
+                    <h4>Artificial Intelligence Awareness</h4>
+                    <span class="cert-issuer">Google Developers</span>
+                </div>
+                <div class="cert-card glass-card reveal-up">
+                    <div class="cert-icon">🐍</div>
+                    <h4>Python Fundamentals</h4>
+                    <span class="cert-issuer">Google Developers</span>
+                </div>
+                <div class="cert-card glass-card reveal-up">
+                    <div class="cert-icon">📊</div>
+                    <h4>Data Science Bootcamp</h4>
+                    <span class="cert-issuer">GeeksforGeeks</span>
+                </div>
+                <div class="cert-card glass-card reveal-up">
+                    <div class="cert-icon">💻</div>
+                    <h4>Full Stack Application Development</h4>
+                    <span class="cert-issuer">IBM via edX</span>
+                </div>
+                <div class="cert-card glass-card reveal-up">
+                    <div class="cert-icon">📡</div>
+                    <h4>Internet of Things (IoT)</h4>
+                    <span class="cert-issuer">Curtin University via edX</span>
+                </div>
+                <div class="cert-card glass-card reveal-up">
+                    <div class="cert-icon">🏆</div>
+                    <h4>E-Commerce Team Lead (Grade A+)</h4>
+                    <span class="cert-issuer">Infosys Foundation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LEADERSHIP SECTION ===== -->
+    <section id="leadership" class="section leadership-section">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">06</span>
+                <h2 class="section-title">Leadership & <span class="text-gradient">Impact</span></h2>
+            </div>
+            <div class="leadership-grid">
+                <div class="leadership-card glass-card reveal-up">
+                    <div class="leadership-icon-wrap">
+                        <div class="leadership-icon">🌐</div>
+                    </div>
+                    <div class="leadership-info">
+                        <h3>Google Student Ambassador</h3>
+                        <span class="leadership-date">2025 — Present</span>
+                        <ul>
+                            <li>Representing Google on campus and building a tech-driven student community</li>
+                            <li>Collaborated with ambassadors and campus leaders to promote Google's developer tools
+                            </li>
+                            <li>Successfully onboarded <strong>300+ students</strong> into the Google ecosystem</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="leadership-card glass-card reveal-up">
+                    <div class="leadership-icon-wrap">
+                        <div class="leadership-icon">⚙️</div>
+                    </div>
+                    <div class="leadership-info">
+                        <h3>TECOS Technical Lead</h3>
+                        <span class="leadership-date">2024 — Present</span>
+                        <ul>
+                            <li>Spearheading technical workshops on AI/ML concepts for <strong>200+ students</strong>
+                            </li>
+                            <li>Mentoring junior members in Python development and AI project architectures</li>
+                            <li>Organizing coding competitions and hackathon preparation sessions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="leadership-card glass-card reveal-up">
+                    <div class="leadership-icon-wrap">
+                        <div class="leadership-icon">🏅</div>
+                    </div>
+                    <div class="leadership-info">
+                        <h3>Hackathon Competitor</h3>
+                        <span class="leadership-date">5+ Events</span>
+                        <ul>
+                            <li>Participated in <strong>5+ hackathons</strong> building AI-driven solutions for social
+                                good</li>
+                            <li>Collaborated in agile teams building functional prototypes in 24-48 hours</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="leadership-card glass-card reveal-up">
+                    <div class="leadership-icon-wrap">
+                        <div class="leadership-icon">🤝</div>
+                    </div>
+                    <div class="leadership-info">
+                        <h3>Community Volunteer</h3>
+                        <span class="leadership-date">Ongoing</span>
+                        <ul>
+                            <li>Active member of <strong>Vizag Volunteers</strong> and <strong>Street Cause</strong>
+                            </li>
+                            <li>Supporting local social impact initiatives and community service</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="section contact-section">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">07</span>
+                <h2 class="section-title">Let's <span class="text-gradient">Connect</span></h2>
+            </div>
+            <div class="contact-content reveal-up">
+                <p class="contact-lead">
+                    Got a project in mind? Looking for an AI/ML or Full Stack collaborator?
+                    Let's build something extraordinary together.
+                </p>
+                <div class="contact-grid">
+                    <a href="mailto:nandukumar9980@gmail.com" class="contact-card glass-card">
+                        <div class="contact-icon">✉️</div>
+                        <span class="contact-type">Email</span>
+                        <span class="contact-value">nandukumar9980@gmail.com</span>
+                    </a>
+                    <a href="tel:+919390735608" class="contact-card glass-card">
+                        <div class="contact-icon">📱</div>
+                        <span class="contact-type">Phone</span>
+                        <span class="contact-value">+91-9390735608</span>
+                    </a>
+                    <a href="https://linkedin.com/in/nandukumar-koribilli-062ba42a2" target="_blank" rel="noopener"
+                        class="contact-card glass-card">
+                        <div class="contact-icon">🔗</div>
+                        <span class="contact-type">LinkedIn</span>
+                        <span class="contact-value">nandukumar-koribilli</span>
+                    </a>
+                    <a href="https://github.com/Nandukumar-koribilli" target="_blank" rel="noopener"
+                        class="contact-card glass-card">
+                        <div class="contact-icon">💻</div>
+                        <span class="contact-type">GitHub</span>
+                        <span class="contact-value">Nandukumar-koribilli</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <span class="footer-logo">NK<span class="logo-dot"></span></span>
+            <p>Designed & Built by Nandu Kumar Koribilli</p>
+            <p class="footer-year">© 2026 — All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
