@@ -1,0 +1,85 @@
+Nandu Kumar Koribilli
+Visakhapatnam, India
++91-9390735608 | nandukumar9980@gmail.com
+LinkedIn: nandukumar-koribilli | GitHub: Nandukumar-koribilli
+PROFESSIONAL SUMMARY
+AI/ML-focused Computer Science undergraduate with strong proficiency in Python, data analysis,
+and machine learning workflows. Hands-on experience in building end-to-end ML projects including
+data preprocessing, model training, and deployment. Actively seeking an AI/ML Internship to apply
+problem-solving skills and grow under industry mentorship.
+TECHNICAL SKILLS
+Programming: Python (NumPy, Pandas, Matplotlib, Seaborn), SQL (basic for data querying)
+Machine Learning: Supervised & Unsupervised Learning, Regression, Classification, Model Evalua-
+tion & Feature Engineering
+Libraries / Frameworks: Scikit-learn, TensorFlow (basics), Flask (for ML deployment)
+Tools: Docker, Git, GitHub, Hugging Face, Jupyter Notebook, Linux (Ubuntu)
+EXPERIENCE
+Data Pro
+Visakhapatnam (Offline)
+AI/ML Intern
+2026
+• Worked on AI and ML workflows to clean, transform, and prepare raw datasets for model training.
+• Trained various machine learning models and ran performance evaluations to ensure accuracy and
+reliability.
+• Monitored model execution and performed data validation to optimize predictive outcomes.
+• Collaborated on real-world problem solving by applying algorithmic approaches to internal data
+projects.
+GeeksforGeeks Bootcamp
+Remote
+Data Science Trainee
+2023
+• Worked on the complete machine learning lifecycle: data collection, preprocessing, model training,
+and evaluation.
+• Analyzed datasets and extracted insights using Python libraries.
+• Gained practical exposure to real-world ML problem-solving.
+EDUCATION
+Gayatri Vidya Parishad
+Visakhapatnam
+B.Sc Computer Science (Minor: IoT)
+2023–2026
+CIPRA Junior College
+Visakhapatnam
+Intermediate (MPC)
+2022–2023
+Sri Satya Industrial Training Center
+Visakhapatnam
+ITI (Electrician)
+2020–2022
+ZP High School
+Visakhapatnam
+10th Grade
+2019–2020
+AI / ML PROJECTS
+CardiAI - ECG Arrhythmia Analyzer
+Python, Streamlit, Gemini 2.5 Pro
+Built a Streamlit app using Gemini 2.5 Pro to classify multi-label arrhythmias from ECG signal datasets.
+Features interactive Plotly visualizations and AI-driven clinical insight dashboards.
+Crop Yield Predictor
+Python, Scikit-learn, Flask
+Engineered an end-to-end crop yield prediction system using environmental data. Deployed the
+model via Flask with robust data preprocessing pipelines.
+
+CERTIFICATIONS
+• 5-Day AI Agents Intensive Course with Google
+• Artificial Intelligence - Google Developers
+• Python Certification - Google Developers
+• Data Science Bootcamp - GeeksforGeeks
+• Internet of Things (IoT) - Curtin University (via edX)
+• E-Commerce Team Lead (Grade A+) - Infosys Foundation Finishing School
+LEADERSHIP & HACKATHONS
+Google Student Ambassador
+2025–Present
+• Representing Google on campus and actively contributing to building a strong tech-driven student
+community over the past 6 months.
+• Collaborated with fellow ambassadors and campus leaders to promote Google's developer tools
+and resources.
+• Successfully onboarded 300+ students into the Google ecosystem through workshops and outreach
+programs.
+TECOS (GVP Technical Club) - Technical Lead
+2024–Present
+• Spearheading technical workshops on AI/ML concepts and coding competitions for 200+ students.
+• Mentoring junior members in Python development and AI project architectures.
+Hackathon Competitor (5+ Events)
+Multiple Platforms
+• Participated in over 5 hackathons, focusing on building AI-driven solutions for social good.
+• Collaborated in agile teams to develop functional prototypes within 24-48 hour timelines.
