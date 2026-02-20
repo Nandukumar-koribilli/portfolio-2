@@ -58,6 +58,7 @@ Crop Yield Predictor
 Python, Scikit-learn, Flask
 Engineered an end-to-end crop yield prediction system using environmental data. Deployed the
 model via Flask with robust data preprocessing pipelines.
+1
 
 CERTIFICATIONS
 • 5-Day AI Agents Intensive Course with Google
@@ -71,7 +72,7 @@ Google Student Ambassador
 2025–Present
 • Representing Google on campus and actively contributing to building a strong tech-driven student
 community over the past 6 months.
-• Collaborated with fellow ambassadors and campus leaders to promote Google's developer tools
+• Collaborated with fellow ambassadors and campus leaders to promote Google’s developer tools
 and resources.
 • Successfully onboarded 300+ students into the Google ecosystem through workshops and outreach
 programs.
@@ -83,3 +84,4 @@ Hackathon Competitor (5+ Events)
 Multiple Platforms
 • Participated in over 5 hackathons, focusing on building AI-driven solutions for social good.
 • Collaborated in agile teams to develop functional prototypes within 24-48 hour timelines.
+2

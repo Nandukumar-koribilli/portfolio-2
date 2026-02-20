@@ -19,7 +19,8 @@ Productivity
 MS Office, Data Management, Git, GitHub, Linux, Antigravity
 Education
 2023–2026
-Honors in B.Sc. Computer Science (Minor: IoT), Gayatri Vidya Parishad, Visakhapatnam
+Honors in B.Sc. Computer Science (Minor: IoT), Gayatri Vidya Parishad, Visakhapat-
+nam
 2022–2023
 Intermediate (MPC), CIPRA Junior College, Visakhapatnam
 2020–2022
@@ -29,29 +30,51 @@ Board of Secondary Education, ZP High School, Visakhapatnam
 Professional Experience
 2025
 Python Full Stack Intern, Millennium, Visakhapatnam
-- Collaborated with a professional team to build and test functional digital solutions using Python-based full stack technologies.
-- Developed and integrated front-end and back-end components to ensure seamless application performance.
-- Managed data entry and system integration for large-scale project collaboration.
-- Utilized analytical skills to troubleshoot and resolve bugs during the project lifecycle.
+○Collaborated with a professional team to build and test functional digital solutions using Python-
+based full stack technologies.
+○Developed and integrated front-end and back-end components to ensure seamless application
+performance.
+○Managed data entry and system integration for large-scale project collaboration.
+○Utilized analytical skills to troubleshoot and resolve bugs during the project lifecycle.
 2024
 Data Science Participant, GeeksforGeeks, Online
-- Engaged in intensive training focused on data analysis, pattern recognition, and predictive modeling.
-- Synthesized complex information into actionable insights through structured modeling techniques.
+○Engaged in intensive training focused on data analysis, pattern recognition, and predictive
+modeling.
+○Synthesized complex information into actionable insights through structured modeling techniques.
 Projects
-Educational Simulation
-Developed an interactive visual learning tool focused on user experience and information retention for complex concepts.
-Analytical Predictor
-Built a forecasting model using historical data sets to improve decision-making accuracy through data analytics.
+Educational
+Simulation
+Developed an interactive visual learning tool focused on user experience and information
+retention for complex concepts.
+Analytical
+Predictor
+Built a forecasting model using historical data sets to improve decision-making accuracy
+through data analytics.
+1/2
 
 Certifications
-May 2025 - 5-day workshop on English Grammar for Effective Writing Skills
-2024 - Full Stack Application Development by edX, IBM
-2024 - IoT Foundations by edX, Curtin University
-2021 - Artificial Intelligence Awareness by Google Developers
-2020 - Python Fundamentals by Programming Hub, Google Developers
+May 2025
+5-day workshop on English Grammar for Effective Writing Skills
+2024
+Full Stack Application Development by edX, IBM
+2024
+IoT Foundations by edX, Curtin University
+2021
+Artificial Intelligence Awareness by Google Developers
+2020
+Python Fundamentals by Programming Hub, Google Developers
 Key Contributions & Volunteering
-Google Ambassador - Served as the primary point of contact for student inquiries, representing the global brand at the campus level.
-Editorial Team - Curated and edited content for college publications, ensuring high quality and strict adherence to deadlines.
-Volunteer - Active member of Vizag Volunteers and Street Cause, supporting local social impact initiatives.
+Google
+Ambassador
+Served as the primary point of contact for student inquiries, representing the global brand
+at the campus level.
+Editorial
+Team
+Curated and edited content for college publications, ensuring high quality and strict
+adherence to deadlines.
+Volunteer
+Active member of Vizag Volunteers and Street Cause, supporting local social impact
+initiatives.
 Languages
 English, Telugu
+2/2
