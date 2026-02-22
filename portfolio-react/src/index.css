@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0a0a;
+  --color-surface: #121212;
+  --color-surface-hover: #1e1e1e;
+  --color-primary: #00f0ff;
+  --color-secondary: #ff00aa;
+  --color-text-main: #ffffff;
+  --color-text-muted: #a0a0a0;
+
+  --font-sans: "Inter", "system-ui", sans-serif;
+  --font-display: "Outfit", "system-ui", sans-serif;
+}
+
+@layer base {
+
+  /* Smooth scrolling baseline */
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-background text-text-main font-sans overflow-x-hidden;
+  }
+
+  /* Premium Typography Scale */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display tracking-tight font-bold;
+  }
+
+  /* Improved Text Selection Color */
+  ::selection {
+    @apply bg-primary/30 text-white;
+  }
+}
+
+@layer components {
+
+  /* Reusable Glassmorphism Card Token */
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl shadow-xl transition-all duration-300;
+  }
+
+  .glass-card:hover {
+    @apply bg-white/10 border-white/20 shadow-primary/20 shadow-2xl -translate-y-1;
+  }
+
+  /* Gradient Text Utility */
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary font-bold;
+  }
+}
+
+/* Custom Webkit Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-surface-hover rounded-full border-2 border-background;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary/50;
+}
