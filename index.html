@@ -13,7 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
 </head>
 
 <body>
@@ -23,38 +23,110 @@
     <!-- Particle Background -->
     <canvas id="particleCanvas"></canvas>
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="nav">
-        <div class="nav-logo">
-            <span class="logo-text">NK</span>
-            <span class="logo-dot"></span>
-        </div>
-        <div class="nav-links">
-            <a href="#hero" class="nav-link active" data-section="hero">Home</a>
-            <a href="#about" class="nav-link" data-section="about">About</a>
-            <a href="#skills" class="nav-link" data-section="skills">Skills</a>
-            <a href="#experience" class="nav-link" data-section="experience">Experience</a>
-            <a href="#projects" class="nav-link" data-section="projects">Projects</a>
-            <a href="#certifications" class="nav-link" data-section="certifications">Certs</a>
-            <a href="#leadership" class="nav-link" data-section="leadership">Leadership</a>
-            <a href="#contact" class="nav-link" data-section="contact">Contact</a>
-        </div>
-        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-            <span></span><span></span><span></span>
-        </button>
-    </nav>
+    <!-- PillNav Navigation -->
+    <div class="pill-nav-container">
+        <nav id="mainNav" class="pill-nav" aria-label="Primary">
+            <a class="pill-logo" href="#hero" aria-label="Home" id="pillLogo">
+                <span class="logo-text">NK</span><span class="logo-dot"></span>
+            </a>
 
-    <!-- Mobile Menu -->
-    <div class="mobile-menu" id="mobileMenu">
-        <a href="#hero" class="mobile-link">Home</a>
-        <a href="#about" class="mobile-link">About</a>
-        <a href="#skills" class="mobile-link">Skills</a>
-        <a href="#experience" class="mobile-link">Experience</a>
-        <a href="#projects" class="mobile-link">Projects</a>
-        <a href="#certifications" class="mobile-link">Certifications</a>
-        <a href="#leadership" class="mobile-link">Leadership</a>
-        <a href="#contact" class="mobile-link">Contact</a>
+            <div class="pill-nav-items desktop-only" id="pillNavItems">
+                <ul class="pill-list" role="menubar">
+                    <li role="none">
+                        <a role="menuitem" href="#hero" class="pill is-active" data-section="hero">
+                            <span class="hover-circle" aria-hidden="true"></span>
+                            <span class="label-stack">
+                                <span class="pill-label">Home</span>
+                                <span class="pill-label-hover" aria-hidden="true">Home</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li role="none">
+                        <a role="menuitem" href="#about" class="pill" data-section="about">
+                            <span class="hover-circle" aria-hidden="true"></span>
+                            <span class="label-stack">
+                                <span class="pill-label">About</span>
+                                <span class="pill-label-hover" aria-hidden="true">About</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li role="none">
+                        <a role="menuitem" href="#skills" class="pill" data-section="skills">
+                            <span class="hover-circle" aria-hidden="true"></span>
+                            <span class="label-stack">
+                                <span class="pill-label">Skills</span>
+                                <span class="pill-label-hover" aria-hidden="true">Skills</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li role="none">
+                        <a role="menuitem" href="#experience" class="pill" data-section="experience">
+                            <span class="hover-circle" aria-hidden="true"></span>
+                            <span class="label-stack">
+                                <span class="pill-label">Experience</span>
+                                <span class="pill-label-hover" aria-hidden="true">Experience</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li role="none">
+                        <a role="menuitem" href="#projects" class="pill" data-section="projects">
+                            <span class="hover-circle" aria-hidden="true"></span>
+                            <span class="label-stack">
+                                <span class="pill-label">Projects</span>
+                                <span class="pill-label-hover" aria-hidden="true">Projects</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li role="none">
+                        <a role="menuitem" href="#certifications" class="pill" data-section="certifications">
+                            <span class="hover-circle" aria-hidden="true"></span>
+                            <span class="label-stack">
+                                <span class="pill-label">Certs</span>
+                                <span class="pill-label-hover" aria-hidden="true">Certs</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li role="none">
+                        <a role="menuitem" href="#leadership" class="pill" data-section="leadership">
+                            <span class="hover-circle" aria-hidden="true"></span>
+                            <span class="label-stack">
+                                <span class="pill-label">Leadership</span>
+                                <span class="pill-label-hover" aria-hidden="true">Leadership</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li role="none">
+                        <a role="menuitem" href="#contact" class="pill" data-section="contact">
+                            <span class="hover-circle" aria-hidden="true"></span>
+                            <span class="label-stack">
+                                <span class="pill-label">Contact</span>
+                                <span class="pill-label-hover" aria-hidden="true">Contact</span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="mobile-menu-button mobile-only" id="pillHamburger" aria-label="Toggle menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </nav>
+
+        <div class="mobile-menu-popover mobile-only" id="mobileMenu">
+            <ul class="mobile-menu-list">
+                <li><a href="#hero" class="mobile-menu-link is-active" data-section="hero">Home</a></li>
+                <li><a href="#about" class="mobile-menu-link" data-section="about">About</a></li>
+                <li><a href="#skills" class="mobile-menu-link" data-section="skills">Skills</a></li>
+                <li><a href="#experience" class="mobile-menu-link" data-section="experience">Experience</a></li>
+                <li><a href="#projects" class="mobile-menu-link" data-section="projects">Projects</a></li>
+                <li><a href="#certifications" class="mobile-menu-link" data-section="certifications">Certs</a></li>
+                <li><a href="#leadership" class="mobile-menu-link" data-section="leadership">Leadership</a></li>
+                <li><a href="#contact" class="mobile-menu-link" data-section="contact">Contact</a></li>
+            </ul>
+        </div>
     </div>
+
 
     <!-- Scroll Progress -->
     <div class="scroll-progress" id="scrollProgress"></div>
@@ -113,6 +185,7 @@
 
     <!-- ===== ABOUT SECTION ===== -->
     <section id="about" class="section about-section">
+        <div class="galaxy-container" id="galaxyContainer"></div>
         <div class="section-container">
             <div class="section-header reveal-up">
                 <span class="section-tag">01</span>
@@ -387,11 +460,11 @@
                 <span class="section-tag">04</span>
                 <h2 class="section-title">GitHub <span class="text-gradient">Projects</span></h2>
             </div>
-            <div class="projects-grid" id="projectsGrid">
-                <div class="projects-loading reveal-up" id="projectsLoading">
-                    <div class="loading-spinner"></div>
-                    <span>Loading repos from GitHub...</span>
-                </div>
+        </div>
+        <div class="circular-gallery" id="circularGallery">
+            <div class="projects-loading" id="projectsLoading">
+                <div class="loading-spinner"></div>
+                <span>Loading repos from GitHub...</span>
             </div>
         </div>
     </section>
@@ -562,7 +635,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
