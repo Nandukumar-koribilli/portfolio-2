@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Test</title>
+    <style>
+        body { margin: 0; background: #000; overflow: hidden; display: flex; align-items: center; justify-content: center; height: 100vh; }
+        canvas { border: 1px solid #333; }
+    </style>
+</head>
+<body>
+    <script>
+        const canvas = document.createElement('canvas');
+        document.body.appendChild(canvas);
+        const ctx = canvas.getContext('2d');
+        canvas.width = 700;
+        canvas.height = 500;
+
+        const repo = {
+            name: "CardiAI",
+            description: "AI-powered heart disease diagnostic tool utilizing machine learning for early detection and risk assessment."
+        };
+
+        function drawCard(index) {
+            // Background Gradient
+            const gradient = ctx.createLinearGradient(0, 0, 700, 500);
+            gradient.addColorStop(0, '#111');
+            gradient.addColorStop(1, '#050505');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, 700, 500);
+
+            // Border Glow
+            ctx.strokeStyle = `hsla(180, 100%, 50%, 0.3)`;
+            ctx.lineWidth = 15;
+            ctx.strokeRect(5, 5, 690, 490);
+
+            // Large Rank Number (Background)
+            ctx.fillStyle = `hsla(180, 100%, 50%, 0.15)`;
+            ctx.font = 'bold 320px sans-serif';
+            ctx.textAlign = 'right';
+            ctx.textBaseline = 'top';
+            ctx.fillText("01", 680, 20);
+
+            // Title
+            ctx.fillStyle = '#fff';
+            ctx.textAlign = 'left';
+            ctx.textBaseline = 'middle';
+            ctx.font = 'bold 64px sans-serif';
+            
+            // Wrap text logic
+            const words = repo.name.split(' ');
+            let line = '';
+            let y = 320;
+            
+            ctx.fillText(repo.name, 50, y);
+
+            // Description
+            ctx.fillStyle = '#aaa';
+            ctx.font = '28px sans-serif';
+            const wrappedDesc = repo.description.substring(0, 60) + "...";
+            ctx.fillText(wrappedDesc, 50, y + 80);
+            
+            // Link Tag
+            ctx.fillStyle = '#00f0ff';
+            ctx.font = 'bold 20px sans-serif';
+            ctx.fillText("VIEW REPOSITORY →", 50, y + 140);
+        }
+
+        drawCard(0);
+    </script>
+</body>
+</html>

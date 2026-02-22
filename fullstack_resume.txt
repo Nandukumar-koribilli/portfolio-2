@@ -1,80 +1,64 @@
-Nandu KumarKoribilli
-1-76-6 MVP Colony Sector-3
-Visakhapatnam, Andhra Pradesh
-MOBILE-ALT +91-9390735608
-Envelope nandukumar9980@gmail.com
-LINKEDIN-IN nandukumar-koribilli-062ba42a2
-Github Nandukumar-koribilli
-Professional Profile
-Dedicated and highly organized professional with a strong background in problem-solving and effective
-communication. Proven track record of leadership as a Google Student Ambassador and a commitment to
-community service. Eager to leverage a disciplined work ethic, a customer-oriented mindset, and technical
-expertise in Full Stack development to contribute to high-quality service standards.
-Technical Skills
-Languages
-Python, SQL, HTML/CSS, JavaScript, ReactJS, ExpressJS, MongoDB
-Technologies
-Full Stack Development, IoT Foundations
-Productivity
-MS Office, Data Management, Git, GitHub, Linux, Antigravity
-Education
-2023–2026
-Honors in B.Sc. Computer Science (Minor: IoT), Gayatri Vidya Parishad, Visakhapat-
-nam
-2022–2023
-Intermediate (MPC), CIPRA Junior College, Visakhapatnam
-2020–2022
-ITI (Electrician), Sri Satya Industrial Training Center, Visakhapatnam
-2019–2020
-Board of Secondary Education, ZP High School, Visakhapatnam
-Professional Experience
-2025
-Python Full Stack Intern, Millennium, Visakhapatnam
-○Collaborated with a professional team to build and test functional digital solutions using Python-
-based full stack technologies.
-○Developed and integrated front-end and back-end components to ensure seamless application
-performance.
-○Managed data entry and system integration for large-scale project collaboration.
-○Utilized analytical skills to troubleshoot and resolve bugs during the project lifecycle.
-2024
-Data Science Participant, GeeksforGeeks, Online
-○Engaged in intensive training focused on data analysis, pattern recognition, and predictive
-modeling.
-○Synthesized complex information into actionable insights through structured modeling techniques.
-Projects
-Educational
-Simulation
-Developed an interactive visual learning tool focused on user experience and information
-retention for complex concepts.
-Analytical
-Predictor
-Built a forecasting model using historical data sets to improve decision-making accuracy
-through data analytics.
-1/2
+NANDU KUMAR KORIBILLI
+Visakhapatnam, India | +91-9390735608 | nandukumar9980@gmail.com
+LinkedIn | GitHub
 
-Certifications
-May 2025
-5-day workshop on English Grammar for Effective Writing Skills
-2024
-Full Stack Application Development by edX, IBM
-2024
-IoT Foundations by edX, Curtin University
-2021
-Artificial Intelligence Awareness by Google Developers
-2020
-Python Fundamentals by Programming Hub, Google Developers
-Key Contributions & Volunteering
-Google
-Ambassador
-Served as the primary point of contact for student inquiries, representing the global brand
-at the campus level.
-Editorial
-Team
-Curated and edited content for college publications, ensuring high quality and strict
-adherence to deadlines.
-Volunteer
-Active member of Vizag Volunteers and Street Cause, supporting local social impact
-initiatives.
-Languages
-English, Telugu
-2/2
+CAREER OBJECTIVE
+Innovative Full Stack Developer with specialized expertise in React, Next.js, and Python-based backends. Experienced in building responsive, high-performance web applications and integrating AI models into user-centric interfaces. Committed to writing clean, maintainable code and solving complex digital problems.
+
+EDUCATION
+Course: B.Sc. Computer Science (IoT)
+University: Gayatri Vidya Parishad (College for Degree And PG Courses)
+Year: 2023 – 2026
+
+TECHNICAL SKILLS
+Frontend: ReactJS, Next.js, HTML5, CSS3, JavaScript (ES6+), Tailwind CSS, Framer Motion, GSAP (Animations).
+Backend: Node.js, ExpressJS, Flask (Python), REST APIs.
+Databases: MongoDB, SQL (PostgreSQL/MySQL).
+AI Integration: LLM Integration (OpenAI API), ML Model Deployment (Flask), Hugging Face.
+DevOps & Tools: Git, GitHub, Docker, Linux, VS Code, Figma.
+
+EXPERIENCE
+Python Full Stack Intern | Millennium, Visakhapatnam | Feb 2025 – Apr 2025
+Architected and developed full-stack web applications using Python (Flask) and modern frontend tools.
+Designed and implemented responsive user interfaces that improved cross-device compatibility by 40%.
+Managed database schemas and handled real-time data integration for collaborative projects.
+Optimized application performance by resolving critical bugs and improving server response times.
+
+AI/ML Intern | Data Pro, Visakhapatnam | May 2026 – Present
+Bridging the gap between AI and Web by deploying machine learning models into live web applications.
+Collaborating with cross-functional teams to integrate predictive analytics into frontend dashboards.
+Built user-friendly interfaces to visualize complex ML outputs for non-technical stakeholders.
+
+Google Student Ambassador | GVP Campus | 2025 – Present
+Lead technical evangelist responsible for representing Google and teaching developer tools.
+Successfully onboarded and mentored 300+ students in web technologies and cloud computing.
+
+PROJECTS
+High-Performance Interactive Portfolio (Web Development)
+Built a state-of-the-art developer portfolio with React, Vite, and GSAP animations.
+Implemented complex WebGL shaders and custom Canvas 2D engines for cinematic UI.
+Optimized for 100/100 Lighthouse performance and SEO visibility.
+
+Agnit’s Aura - Mental Health Platform (Full Stack)
+Developed a full-stack mental health support portal with a custom-trained AI chatbot.
+Used React for the frontend and Flask for the AI-inference backend.
+Designed an empathetic UI with glassmorphism and calming aesthetic palettes.
+
+Real-time Dashboard with ML Integration
+Integrated periodic farm-data analysis into a live monitoring dashboard for crop prediction.
+Ensured seamless connectivity between IoT sensors, MongoDB, and the React frontend.
+
+CERTIFICATIONS
+- 5-Day AI Agents Intensive Course – Google
+- Artificial Intelligence Awareness – Google Developers
+- Full Stack Application Development – IBM via edX
+- React Development Specialization – Coursera (Ongoing)
+- Python Fundamentals – Google Developers
+- E-Commerce Team Lead (Grade A+) – Infosys Foundation
+
+LEADERSHIP & ACHIEVEMENTS
+Student Ambassador: 300+ students onboarded into Google Developer programs.
+Technical Lead, TECOS: Spearheading technical workshops for 200+ students.
+Community Volunteer: Active member of Vizag Volunteers and Street Cause.
+Winner/Participant: Top ranks in 3+ college-level project expos.
+🏆 Grade A+ Award in E-commerce Management by Infosys Foundation.

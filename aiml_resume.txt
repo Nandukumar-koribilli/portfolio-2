@@ -1,87 +1,65 @@
-Nandu Kumar Koribilli
-Visakhapatnam, India
-+91-9390735608 | nandukumar9980@gmail.com
-LinkedIn: nandukumar-koribilli | GitHub: Nandukumar-koribilli
-PROFESSIONAL SUMMARY
-AI/ML-focused Computer Science undergraduate with strong proficiency in Python, data analysis,
-and machine learning workflows. Hands-on experience in building end-to-end ML projects including
-data preprocessing, model training, and deployment. Actively seeking an AI/ML Internship to apply
-problem-solving skills and grow under industry mentorship.
-TECHNICAL SKILLS
-Programming: Python (NumPy, Pandas, Matplotlib, Seaborn), SQL (basic for data querying)
-Machine Learning: Supervised & Unsupervised Learning, Regression, Classification, Model Evalua-
-tion & Feature Engineering
-Libraries / Frameworks: Scikit-learn, TensorFlow (basics), Flask (for ML deployment)
-Tools: Docker, Git, GitHub, Hugging Face, Jupyter Notebook, Linux (Ubuntu)
-EXPERIENCE
-Data Pro
-Visakhapatnam (Offline)
-AI/ML Intern
-2026
-• Worked on AI and ML workflows to clean, transform, and prepare raw datasets for model training.
-• Trained various machine learning models and ran performance evaluations to ensure accuracy and
-reliability.
-• Monitored model execution and performed data validation to optimize predictive outcomes.
-• Collaborated on real-world problem solving by applying algorithmic approaches to internal data
-projects.
-GeeksforGeeks Bootcamp
-Remote
-Data Science Trainee
-2023
-• Worked on the complete machine learning lifecycle: data collection, preprocessing, model training,
-and evaluation.
-• Analyzed datasets and extracted insights using Python libraries.
-• Gained practical exposure to real-world ML problem-solving.
+NANDU KUMAR KORIBILLI
+Visakhapatnam, India | +91-9390735608 | nandukumar9980@gmail.com
+LinkedIn | GitHub
+
+CAREER OBJECTIVE
+AI/ML-focused Computer Science undergraduate with strong proficiency in Python, data analysis, and machine learning workflows. Passionate about building end-to-end ML projects, data preprocessing, and predictive modeling. Seeking to leverage technical skills in AI/ML to contribute to innovative digital solutions.
+
 EDUCATION
-Gayatri Vidya Parishad
-Visakhapatnam
-B.Sc Computer Science (Minor: IoT)
-2023–2026
-CIPRA Junior College
-Visakhapatnam
-Intermediate (MPC)
-2022–2023
-Sri Satya Industrial Training Center
-Visakhapatnam
-ITI (Electrician)
-2020–2022
-ZP High School
-Visakhapatnam
-10th Grade
-2019–2020
-AI / ML PROJECTS
-CardiAI - ECG Arrhythmia Analyzer
-Python, Streamlit, Gemini 2.5 Pro
-Built a Streamlit app using Gemini 2.5 Pro to classify multi-label arrhythmias from ECG signal datasets.
-Features interactive Plotly visualizations and AI-driven clinical insight dashboards.
-Crop Yield Predictor
-Python, Scikit-learn, Flask
-Engineered an end-to-end crop yield prediction system using environmental data. Deployed the
-model via Flask with robust data preprocessing pipelines.
-1
+Course: B.Sc. Computer Science (IoT)
+University: Gayatri Vidya Parishad (College for Degree And PG Courses)
+Year: 2023 – 2026
+
+TECHNICAL SKILLS
+AI/ML & Data Science: Python (Advanced), NumPy, Pandas, Scikit-learn, TensorFlow, Data Visualization (Matplotlib, Seaborn), Feature Engineering, Hyperparameter Tuning, Exploratory Data Analysis (EDA).
+Frontend: HTML5, CSS3, JavaScript (Core), Bootstrap.
+Backend: Flask (for ML deployment), SQL (Basic).
+Tools: Git, GitHub, Jupyter Notebook, Google Colab, Hugging Face, VS Code.
+
+EXPERIENCE
+AI/ML Intern | Data Pro, Visakhapatnam | May 2026 – Present
+Assisting in the development of AI and ML workflows to clean, transform, and prepare raw datasets for model training.
+Training machine learning models and running performance evaluations for accuracy and reliability.
+Monitoring model execution and performing data validation to optimize predictive outcomes.
+Applying algorithmic approaches to solve internal data projects and gain professional exposure.
+
+Python Full Stack Intern | Millennium, Visakhapatnam | Feb 2025 – Apr 2025
+Built and tested functional digital solutions using Python-based full stack technologies.
+Developed and integrated front-end and back-end components for seamless performance.
+Managed data entry and system integration for large-scale project collaboration.
+Utilized analytical skills to troubleshoot and resolve bugs during the project lifecycle.
+
+Data Science Trainee | GeeksforGeeks (Remote) | Oct 2023 – Oct 2024
+Successfully completed an intensive Data Science bootcamp focusing on statistical analysis and Python.
+Worked on the complete ML lifecycle: data collection, preprocessing, model training, and evaluation.
+Analyzed datasets and extracted insights using Python libraries to solve real-world problems.
+
+PROJECTS
+Crop Yield Prediction (AI/ML)
+Developed an ML model using Scikit-learn to predict crop yields based on soil and climatic factors.
+Achieved high accuracy through feature scaling and selection techniques.
+Deployed the model via a Flask web interface for end-user accessibility.
+
+CardiAI - Heart Disease Diagnostic Tool (AI/ML)
+Built a classification model to diagnose heart disease risk using patient medical records.
+Applied Exploratory Data Analysis (EDA) to find correlations in clinical data.
+Utilized Random Forest and Logistic Regression algorithms for optimized results.
+
+Agnit’s Aura - AI Chatbot (Web Integration)
+Developed an AI-enhanced mental health chatbot to provide empathetic user interactions.
+Integrated a Python-based backend with a responsive frontend design.
 
 CERTIFICATIONS
-• 5-Day AI Agents Intensive Course with Google
-• Artificial Intelligence - Google Developers
-• Python Certification - Google Developers
-• Data Science Bootcamp - GeeksforGeeks
-• Internet of Things (IoT) - Curtin University (via edX)
-• E-Commerce Team Lead (Grade A+) - Infosys Foundation Finishing School
-LEADERSHIP & HACKATHONS
-Google Student Ambassador
-2025–Present
-• Representing Google on campus and actively contributing to building a strong tech-driven student
-community over the past 6 months.
-• Collaborated with fellow ambassadors and campus leaders to promote Google’s developer tools
-and resources.
-• Successfully onboarded 300+ students into the Google ecosystem through workshops and outreach
-programs.
-TECOS (GVP Technical Club) - Technical Lead
-2024–Present
-• Spearheading technical workshops on AI/ML concepts and coding competitions for 200+ students.
-• Mentoring junior members in Python development and AI project architectures.
-Hackathon Competitor (5+ Events)
-Multiple Platforms
-• Participated in over 5 hackathons, focusing on building AI-driven solutions for social good.
-• Collaborated in agile teams to develop functional prototypes within 24-48 hour timelines.
-2
+- 5-Day AI Agents Intensive Course – Google
+- Artificial Intelligence Awareness – Google Developers
+- Python Fundamentals – Google Developers
+- Data Science Bootcamp – GeeksforGeeks
+- Full Stack Application Development – IBM via edX
+- Internet of Things (IoT) – Curtin University via edX
+- E-Commerce Team Lead (Grade A+) – Infosys Foundation
+
+LEADERSHIP & ACHIEVEMENTS
+Google Student Ambassador (2025): Onboarded 300+ students into the Google ecosystem.
+Technical Lead, TECOS: Mentoring 200+ students in AI/ML and Python development.
+Hackathon Participant: Competed in 5+ national-level hackathons building AI-driven solutions.
+Volunteer: Active member of Vizag Volunteers and Street Cause.
